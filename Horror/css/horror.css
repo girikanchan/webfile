@@ -1,0 +1,95 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+h1{
+    margin: 10px;
+    width: 98vw;
+    height: 8vh;
+    text-align: center;
+    font-size: xx-large;
+    font-family: cursive;
+    font-weight: bolder;
+    background-image: linear-gradient(rgb(100, 99, 99),rgba(141, 134, 134, 0.558));
+}
+.bck-img {
+    margin-top: -40px;
+    width: 98vw;
+    height: 88vh;
+    background-size: cover;
+    position: relative;
+    background-image: url('/Horror/horror.jpeg');
+    box-sizing: border-box;
+    margin-right: 7.5px;
+    margin-left: 12px;
+    background: rgba(211, 211, 211, 0.987);
+}
+.cover {
+    height: 400px;
+    width: 80px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.box{
+    height: 240px;
+    width: 220px;
+    margin: 10px;
+    margin-left: 3px;
+    margin-right: -3px;
+    padding: 5%;
+    border-radius: 20%;
+    background-image: rgba(220, 85, 28, 0.589),rgb(148, 97, 97),rgb(179, 75, 75);
+}
+.box h3{
+    font-weight: 100;
+    font-size: 18px;
+    font-family: cursive;
+    color: rgb(228, 230, 231);
+    padding: 1%;
+    border-radius: 8%;
+    margin-top: -12px;
+    width: 200px;
+    height: 70px;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: -10px;
+    background-image: linear-gradient(rgba(67, 67, 74, 0.963),rgb(57, 54, 53));
+
+
+}
+.box a{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    color: rgba(255, 228, 196, 0.161);
+
+}
+.box img{
+    margin-top: 50px;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    margin:50px;
+    margin-left: -5px;
+    margin-right: 5px;
+    background: rgba(137, 64, 64, 0.404);
+
+
+    
+}
+.box p{
+    margin-top: 52px;
+    height: 190px;
+    width: 190px;
+    margin-left: 70px;
+    text-align: center;
+    background-image: linear-gradient(rgba(47, 45, 45, 0.714),rgb(38, 35, 35));
+    color: blanchedalmond;
+    font-size: 18px;
+    font-weight: 20px;
+
+}

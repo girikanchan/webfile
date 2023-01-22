@@ -1,0 +1,112 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+h1{
+    margin: 10px;
+    width: 98vw;
+    height: 8vh;
+    text-align: center;
+    font-size: xx-large;
+    font-family: cursive;
+    font-weight: bolder;
+    background-image: linear-gradient(rgb(215, 196, 23),rgba(249, 81, 15, 0.558));
+}
+.bck-img {
+    margin-top: -40px;
+    width: 98vw;
+    height: 88vh;
+    background-size: cover;
+    position: relative;
+    background-image: linear-gradient(rgba(22, 22, 20, 0.73),rgba(14, 13, 13, 0.82),rgba(9, 8, 8, 0.827),rgba(29, 26, 24, 0.621));
+    box-sizing: border-box;
+    margin-right: 7.5px;
+    margin-left: 12px;
+    
+}
+.cover {
+    height: 400px;
+    width: 80px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.box{
+    height: 240px;
+    width: 220px;
+    margin: 10px;
+    margin-left: 3px;
+    margin-right: -3px;
+    padding: 5%;
+    border-radius: 20%;
+    flex-wrap: wrap;
+    background-image: rgba(220, 85, 28, 0.589),rgb(148, 97, 97),rgb(179, 75, 75);
+}
+.box h2{
+    font-weight: 100;
+    font-size: 18px;
+    font-family: cursive;
+    color: rgb(11, 11, 11);
+    padding: 1%;
+    border-radius: 8%;
+    margin-top: 10px;
+    width: auto;
+    height: 130px;
+    text-align: center;
+    margin-left: 14px;
+    margin-right: 7px;
+    background-image: linear-gradient(rgba(170, 154, 74, 0.871),rgba(183, 93, 63, 0.22));
+
+
+}
+.box a{
+    margin-top: 10px;
+    height: 400px;
+    width: 200px;
+    display: flex;
+    color: rgba(71, 68, 63, 0.9);
+    margin-left: 10px;
+    margin-right: 5px;
+
+}
+.box img{
+    margin-top: 30px;
+    height: 200px;
+    width: 250px;
+    display: flex;
+    margin: top 15px;
+    margin-left: -3px;
+    margin-right: 5px;
+    
+    background: rgba(137, 64, 64, 0.404);
+    box-shadow: 5px 0px 10px 6px #ebece2 ;
+
+
+    
+}
+.box p{
+    margin-top: -165px;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    background-image: linear-gradient(rgba(213, 191, 21, 0.686),rgba(224, 119, 15, 0.707));
+    color: rgb(4, 14, 34);
+    font-size: 16px;
+    font-weight: 20px;
+    margin-left: 20px;
+    margin-right: 5px;
+    box-shadow: 5px 5px 10px 6px #b38842 ;
+    border-radius: 10%;
+
+
+}
+.drop {
+    display: none;
+
+}
+.box:hover .drop{
+    display: block;
+}

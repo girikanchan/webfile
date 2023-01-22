@@ -1,0 +1,110 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+h1{
+    margin: 10px;
+    width: 98vw;
+    height: 8vh;
+    text-align: center;
+    font-size: xx-large;
+    font-family: cursive;
+    font-weight: bolder;
+    background-image: linear-gradient(rgb(21, 21, 23),rgba(18, 18, 20, 0.558));
+}
+.bck-img {
+    margin-top: -40px;
+    width: 98vw;
+    height: 98vh;
+    background-size: cover;
+    position: relative;
+    background-image: url('/Romantic-comedy/rom.jpeg');
+    box-sizing: border-box;
+    margin-right: 7.5px;
+    margin-left: 12px;
+    
+}
+.cover {
+    height: 400px;
+    width: 80px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.box{
+    height: 240px;
+    width: 220px;
+    margin-top: 100px;
+    margin-left: 3px;
+    margin-right: -3px;
+    padding: 5%;
+    border-radius: 20%;
+    flex-wrap: wrap;
+    background-image: rgba(220, 85, 28, 0.589),rgb(148, 97, 97),rgb(179, 75, 75);
+}
+.box h2{
+    font-weight: 100;
+    font-size: 18px;
+    font-family: cursive;
+    color: rgb(2, 7, 34);
+    padding: 1%;
+    border-radius: 8%;
+    margin-top: -12px;
+    width: 200px;
+    height: 70px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 5px;
+    background-image: linear-gradient(rgba(171, 180, 34, 0.84),rgba(208, 179, 110, 0.856));
+
+
+}
+.box a{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    color: rgba(239, 139, 16, 0.9);
+    margin-left: 10px;
+    margin-right: 5px;
+
+}
+.box img{
+    margin-top: 120px;
+    height: 100px;
+    width: 120px;
+    display: flex;
+    margin:50px;
+    margin-left: -65px;
+    margin-right: 5px;
+    
+    background: rgba(137, 64, 64, 0.404);
+    box-shadow: 5px 0px 10px 6px #bd8740f4 ;
+
+
+    
+}
+.box p{
+    margin-top: 210px;
+    height: 200px;
+    width: 190px;
+    text-align: center;
+    background-image: linear-gradient(rgba(68, 182, 73, 0.553),rgb(219, 229, 24));
+    color: rgb(6, 30, 80);
+    font-size: 16px;
+    font-weight: 20px;
+    margin-left: 45px;
+    margin-right: 5px;
+    box-shadow: 5px 5px 10px 6px #a6b23c ;
+
+
+}
+.drop {
+    display: none;
+
+}
+.box:hover .drop{
+    display: block;
+}

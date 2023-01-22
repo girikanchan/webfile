@@ -1,0 +1,110 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+h1{
+    margin: 10px;
+    width: 98vw;
+    height: 8vh;
+    text-align: center;
+    font-size: xx-large;
+    font-family: cursive;
+    font-weight: bolder;
+    background-image: linear-gradient(rgb(15, 15, 17),rgba(110, 110, 116, 0.558));
+}
+.bck-img {
+    margin-top: -40px;
+    width: 98vw;
+    height: 130vh;
+    background-size: cover;
+    position: relative;
+    background-image: url('/Thrilling-Mysteries/thrill.jpeg');
+    box-sizing: border-box;
+    margin-right: 7.5px;
+    margin-left: 12px;
+    
+}
+.cover {
+    height: 400px;
+    width: 80px;
+    margin-top: 45px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.box{
+    height: 240px;
+    width: 220px;
+    margin-top: 200px;
+    margin-left: 3px;
+    margin-right: -3px;
+    padding: 5%;
+    border-radius: 20%;
+    flex-wrap: wrap;
+    background-image: rgb(41, 51, 46),rgb(148, 97, 97),rgb(179, 75, 75);
+}
+.box h3{
+    font-weight: 100;
+    font-size: 18px;
+    font-family: cursive;
+    color: rgb(212, 110, 20);
+    padding: 1%;
+    border-radius: 8%;
+    margin-top: -12px;
+    width: 200px;
+    height: 160px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: -10px;
+    background-image: linear-gradient(rgba(55, 55, 66, 0.869),rgba(44, 42, 42, 0.772));
+
+
+}
+.box a{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    color: rgba(239, 139, 16, 0.9);
+    margin-left: 10px;
+    margin-right: 5px;
+
+}
+.box img{
+    margin-top: 90px;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    margin:50px;
+    margin-left: 10px;
+    margin-right: 5px;
+    
+    background: rgba(137, 64, 64, 0.404);
+    box-shadow: 5px 0px 10px 6px #ebece2 ;
+
+
+    
+}
+.box p{
+    margin-top: 60px;
+    height: 450px;
+    width: 190px;
+    text-align: center;
+    background-image: linear-gradient(rgba(164, 157, 157, 0.553),rgb(199, 164, 164));
+    color: rgb(4, 14, 34);
+    font-size: 16px;
+    font-weight: 20px;
+    margin-left: 35px;
+    margin-right: 10px;
+    box-shadow: 5px 5px 10px 6px #ebece2 ;
+
+
+}
+.drop {
+    display: none;
+
+}
+.box:hover .drop{
+    display: block;
+}
